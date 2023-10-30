@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+   background-image: url('https://static.vecteezy.com/system/resources/thumbnails/004/968/002/small/cute-abstract-modern-background-free-vector.jpg');
+  
+} 
+
+
+
+.mainContainer{
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    position: absolute;
+    left: 10%;
+    border: 1px solid white;
+    border-radius: 5%;
+   
+}
+
+.linkcontainer{
+  width: 80%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5%;
+}
+.links{
+background-color: black;
+color: white;
+text-decoration: none;
+font-size: 30px;
+font-style: italic;
+padding: 5%;
+}
+
+
+img[alt ="welcome to the website"]{
+    height: 100%;
+    width: 50%;
+    border-radius: 5% 0% 0% 5%;
+
+
+}
+
+.formContainer{
+    background-color: orange;
+    width: 50%;
+    border-radius: 0% 5% 5% 0%;
+    text-align: center;
+    line-height: 50px;
+
+}
+input{
+    height: 40px;
+    border-radius: 5px;
+    
+}
+.btn{
+    height: 30px;
+    width: 250px;
+    background-color: rgb(0, 136, 255);
+    color: white;
+    border-radius: 5%;
+}
+.dashboard{
+    background-color: white;
+}
+
+/* img[alt='website']{
+    
+} */
+
+.website{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJUKtad2fPmuW5OSYybHCN6oN7OhEEV-dkWdO7-e0UMD9QmXvVeFJTXyLmgmpez32ANMc&usqp=CAU');
+}
