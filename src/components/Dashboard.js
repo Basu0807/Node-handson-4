@@ -9,7 +9,7 @@ const [user,setuser]=useState([])
 // console.log(user);
   useEffect(()=>{
 if(token){
-  axios.get('http://localhost:4000/user/home',{headers:{
+  axios.get('https://node-handson-4-vpv6.onrender.com/user/home',{headers:{
     "authorization":`Bearer ${token}`
   }}).then((res)=>setuser(res.data))
   .catch((err)=>console.log(err))

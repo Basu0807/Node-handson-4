@@ -23,7 +23,7 @@ return{...pre,[e.target.name]:e.target.value}
 
 const SubmitHandler=(event)=>{
 event.preventDefault()
-axios.post('http://localhost:4000/user/register',data)
+axios.post('https://node-handson-4-vpv6.onrender.com/user/register',data)
 .then((res)=>{
 alert(res.data.msg) 
 if(res.data.msg === "You have successfully registered"){
